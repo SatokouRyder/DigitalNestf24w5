@@ -1,0 +1,40 @@
+/* use a more specific selector. it used to be img.rounded-circle */
+#profile img {
+    border: 4px solid #00b448;
+    /* add width and height to make your photo a perfect circle.
+       * also added and object-fit.
+       */
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+  
+  #profile {
+    background-color: #f9f9f9;
+    /* use rem aqui tambien instead of px. */
+    padding: 3rem 0rem;
+  }
+  
+  #hobbies img {
+    /* use rem instead since its relative to the font size.
+       * also a larger value will make the images render nicely.
+       */
+    height: 370px;
+    object-fit: cover;
+  }
+  
+  #hobbies h5 {
+    font-size: 1.2rem;
+    /* rem otra vez */
+    margin-top: 1rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    /* rem */
+    margin: 0rem 1rem;
+  }
+  
+  #header {
+    background-color:#00b448;
+  }
